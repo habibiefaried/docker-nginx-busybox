@@ -7,5 +7,3 @@ RUN echo "Service-iot, nanti hapus nginx ini kalau webservice sudah dibuat" > /v
 ADD nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
-
-CMD ["/usr/sbin/nginx"]
